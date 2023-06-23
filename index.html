@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="starbucks.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid p-0 m-0">
+        <nav class="navbar navbar-expand-md bg-white  p-1">
+            <div class="navbar-brand justify-content-start">
+                <img src="logo.png" style="width: 74px; height: 72px;" class=""> 
+             </div>
+                <button class="navbar-toggler " data-bs-target="#menu" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav navbar-collapse collapse justify-content-end " id="menu">
+                    <li class="nav-item"><a class="nav-link " href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link "  href="">What's New</a></li>
+                    <li class="nav-item"><a class="nav-link "  href="">Contact</a></li>
+
+                </ul>
+          
+        </nav>
+        <div class="container-fluid">
+            <div class="row  " style="height: 550px;">
+                <div class="col col-6 ">
+                    <br>
+                    <br>
+                    <h1 class="mt-5 pt-5">It not just coffee <br>
+                    It's <span class="text-success fw-bolder">Starbucks</span>
+                </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum eaque accusantium animi non iusto sit ad id molestias deserunt facere temporibus, aliquid velit quos dolorum cupiditate fuga alias placeat. Doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint debitis eos exercitationem sapiente nisi dolor qui fugit dolores quisquam eum, perspiciatis beatae. Consequuntur similique quae quos consequatur reprehenderit ipsam fuga!</p>
+                <button class="btn btn-success rounded-pill">Learn more</button>
+                <div class="drink">
+                    <img src="thumb1.png" id="img1">
+                    <img src="thumb2.png" id="img2">
+                    <img src="thumb3.png" id="img3">
+
+                </div>
+                </div>
+                <div class="col col-6 corner row align-items-center" id="corner">
+                
+                        <div class="col-11"> 
+                            <img src="img1.png" id="react" style="width: 300px; height: 480px;">
+                        </div>
+                        <div class="col iconc fs-4 d-flex flex-column ">
+                            <i class="bi-facebook"></i>
+                            <i class="bi-twitter "></i>
+                            <i class="bi-instagram "></i>
+                        
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        var img1=document.getElementById('img1')
+        var img2=document.getElementById('img2')
+        var img3=document.getElementById('img3')
+        var react=document.getElementById('react')
+        var corner=document.getElementById('corner')
+        img1.onclick=function(){
+            corner.style="background-color: #198754;border-top-left-radius: 100%;"
+            react.src='img1.png'
+
+        }
+        img2.onclick=function(){
+            corner.style="background-color: #e5bbc1;border-top-left-radius: 100%;"
+            react.src='img2.png'
+
+        }
+        img3.onclick=function(){
+            corner.style="  background-color: #fd7fc1;border-top-left-radius: 100%;"
+            react.src='img3.png'
+
+        }
+    </script>
+    <script src="bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

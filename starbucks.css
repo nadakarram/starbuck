@@ -1,0 +1,42 @@
+.corner{
+    background-color: #198754;
+    border-top-left-radius: 100%;
+   
+}
+.corner2{
+    background-color: #e5bbc1;
+    border-top-left-radius: 100%;
+}
+.corner3{
+    background-color: #fd7fc1;
+    border-top-left-radius: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.iconc i{
+    margin-bottom: 40px;
+    color: white;
+}
+#menu li a{
+    color: #198754;
+    font-size: large;
+
+}
+#menu li a:hover{
+    text-decoration: underline ;
+    text-underline-offset: 5px ;
+
+}
+
+.drink{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+
+}
+.drink img{
+    width: 65px;
+    height: 85px;
+}
